@@ -86,7 +86,7 @@ stocks_and_index_df %>%
       labs(title="Feb - Mar 2020: Stock Price Trends
 Stock market decline correlates with acceleration of Covid-19 pandemic.",
            subtitle = "Y-axis value of 1 = max close price during observation timeframe.
-Y-axis value of 0 = minumum close price during observation timeframe.",
+Y-axis value of 0 = minimum close price during observation timeframe.",
            x="Stock Market Trading Day",
            y="Min Max Normalized Close Price") +
       theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1),
@@ -133,7 +133,7 @@ stocks_and_index_df %>%
       labs(title="Feb - Mar 2020: Stock Price Trends
 20 stocks least correlated with S&P 500 index decline.",
            subtitle = "Y-axis value of 1 = max close price during observation timeframe.
-Y-axis value of 0 = minumum close price during observation timeframe.",
+Y-axis value of 0 = minimum close price during observation timeframe.",
            x="Stock Market Trading Day",
            y="Min Max Normalized Close Price") +
       theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1),
