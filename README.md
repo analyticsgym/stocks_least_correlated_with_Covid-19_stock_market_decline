@@ -7,8 +7,6 @@ Using R + open-source data analysis packages we can quickly get at a first pass 
 
 This post is not financial advice. 
 
-Code for this post can be found on Github.
-
 To represent the market we can pick an index to compare price trends against.
 
 For this exploratory analysis, the S&P 500 index was selected. VFINX (Vanguard 500 Index Fund) is used as the proxy for the market and S&P 500.
