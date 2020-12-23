@@ -9,7 +9,9 @@ library(tidyquant)
 library(scales)
 library(ggrepel)
 
-### get stocks in Sp500 index
+### get current stocks in Sp500 index
+# TODO: need to access a snapshot of the SP500 vs get the latest stocks
+# Else the output in this script code change month to month
 sp500stocks <- tq_index("SP500")
 
 ### clean up symbols for downstream analysis
@@ -31,7 +33,7 @@ sp500stocks %>%
                          limits = c(0,0.06)) +
       labs(title="Top 50 S&P 500 Stocks by Index Weight (March 2020)",
            y="Index Weight",
-           x="Company Symbol")
+           x="Company Symbol") 
 
 start_date <- c("2020-01-01")
 end_date <- c("2020-03-31")
